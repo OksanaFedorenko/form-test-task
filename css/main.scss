@@ -1,0 +1,147 @@
+*, 
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.registration {
+  font-family: 'Source Sans Pro',
+  sans-serif;
+  /*height: 100vh;*/
+  width: 100%;
+  max-width: 1114px;
+  height: 1290px;
+  background: url("../img/main-bg.png") center no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 823px;
+  min-height: 602px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  border: 1px solid #dcdcdc;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+
+.form {
+  width: 50%;
+  padding: 28px;
+  &__title {
+    width: 100%;
+    height: 121px;
+    color: #fff;
+    font-size: 24px;
+    background-color: #34b7ce;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    text-transform: capitalize;
+    &-img {
+      margin-right: 45px;
+    }
+  }
+  &__wrapper {
+    display: flex;
+  }
+  &__input {
+    width: 100%;
+    position: relative;
+    input {
+      //position: relative;
+      width: 100%;
+      border: none;
+      border-radius: 10px;
+    }
+  }
+}
+
+
+.login__form-input {
+  margin-bottom: 34px;
+  input {
+    height: 61px;
+    padding-left: 53px;
+    font-size: 22px;
+  }
+}
+
+
+.login__checkbox {
+  color: #cbcbcb;
+  font-size: 14px;
+}
+
+.login__form-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  width: 150px;
+  height: 48px;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  color: #fff;
+  display: block;
+  margin-left: auto;
+}
+
+.btn-blue {
+    background: linear-gradient(-45deg, #6ab1dc, #2c3b85);
+}
+
+.btn-yellow {
+  background: linear-gradient(-45deg, #e7d25b, #a48d11);
+}
+
+
+.register__form-input {
+  margin-bottom: 24px;
+  input {
+    height: 51px;
+    padding-left: 20px;
+    font-size: 22px;
+  }
+}
+
+.register__form-text {
+  font-size: 20px;
+  color: #a1a1a1;
+  margin-bottom: 15px;
+}
+
+.fa {
+  font-size: 20px;
+  //position: absolute;
+  //top: 30%;
+  //right: 20px;
+} 
+
+.fa-check {
+  color: #6fff51;
+}
+
+.fa-exclamation {
+  color: red;
+}
+
+.form__input-icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 55%;
+  right: 20px;
+  transform: translate(10px, -7px);
+}

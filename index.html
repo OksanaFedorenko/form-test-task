@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <section class="registration">
+    <div class="page-title">Login to your account / register new</div>
+    <div class="wrapper">
+      <div class="form__title">
+        <div class="form__title-img">
+          <img src="img/Compose - alt.png" alt="icon">
+        </div>
+        <h1 class="form__title-text">Login to your account / register new</h1>
+      </div>
+
+      <div class="form__wrapper">
+
+        <form action="/" class="form login-form">
+          <div class="form__input login__form-input"><input   class="login-field" type="text" placeholder="Name"></div>
+          <div class="form__input login__form-input"><input   class="login-field" type="password"   placeholder="Password"></div>
+          <div class="login__form-wrap">
+            <label for="remember" class="login__checkbox">
+              <input type="checkbox" name="Remember" id="remember">
+            Remember My password</label>
+            <button type="submit" class="btn btn-blue">Login</button>
+          </div>
+        </form>
+  
+        <form action="/" class="form register-form">
+          <p class="register__form-text">Email</p>
+          <div class="form__input register__form-input">
+            <input class="register-field register-email" type="email">
+            <!--<div class="form__input-icon">
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </div>-->
+          </div>
+          <p class="register__form-text">User Name</p>
+          <div class="form__input register__form-input">
+            <input   class="register-field register-name" type="text">
+            <!--<div class="form__input-icon">
+              <i class="fa fa-exclamation" aria-hidden="true"></i>
+            </div>-->
+          </div>
+          <p class="register__form-text">Password</p>
+          <div class="form__input register__form-input"><input   class="register-field register-password"   type="password"></div>
+          <button type="submit" class="btn btn-yellow">Register</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+  
+  <script src="js/index.js"></script>
+</body>
+</html>
